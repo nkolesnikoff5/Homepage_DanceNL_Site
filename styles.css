@@ -95,23 +95,42 @@ nav .wrapper {
   position: relative;
 }
 
+.desktop__one {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .wrapper .logo a {
   color: var(--blue-dark);
   font-size: 2.7rem;
   font-weight: 600;
   padding: 0.5rem;
-  border: 3px solid var(--black);
+}
+
+.hero>.left>h2 {
+  font-size: 32px;
+  margin: 20px 0px 20px 0px;
+}
+
+.product>.img-container>img {
+  max-height: 300px;
+  max-width: 360px;
+}
+
+.hero>.left>small {
+  font-size: 30px;
+  margin: 5px 0px 5px 0px;
 }
 
 .wrapper .nav-list {
   display: inline-flex;
 }
 
-.nav-list li i {
+.nav-list>li>i {
   color: var(--grey2);
 }
 
-.nav-list a {
+.nav-list>a {
   color: var(--black);
   font-size: 1.5rem;
   padding: 0.9rem 1.5rem;
